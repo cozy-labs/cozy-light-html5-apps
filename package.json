@@ -1,0 +1,21 @@
+{
+  "name": "cozy-light-static-apps",
+  "type": "plugin",
+  "version": "0.1.0",
+  "displayName": "Static apps launcher",
+  "description": "Allow to deploy apps made only of static files.",
+  "author": "Cozy Cloud <contact@cozycloud.cc> (http://cozycloud.cc)",
+  "licenses": [
+    {
+      "type": "AGPL v3",
+      "url": "http://www.gnu.org/licenses/agpl-3.0.html"
+    }
+  ],
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cozy-labs/cozy-light-static-apps.git"
+  },
+  "dependencies": {
+  }
+}
