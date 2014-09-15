@@ -17,5 +17,6 @@
     "url": "https://github.com/cozy-labs/cozy-light-static-apps.git"
   },
   "dependencies": {
+    "express": "^4.9.0"
   }
 }
