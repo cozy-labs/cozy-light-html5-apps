@@ -9,6 +9,7 @@ module.exports.configureAppServer = function(app, config, routes, callback) {
       var appPath = path.join(configDir, 'node_modules');
       appPath = path.join(appPath, staticApp.name);
       app.use("/apps/" + staticApp.name, express.static(appPath));
+      console.log('Server configured for app ' + staticApp.name);
     }
   });
   callback();
