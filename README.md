@@ -16,6 +16,6 @@ Install it as normal application, the plugin take care of the rest.
 
 Build it as any app then publish on Github with a [Cozy Light manifest](https://github.com/cozy-labs/hello/blob/master/package.json) at the root of the repository. Add one field to the manifest:
 
-   "type": "static",
+    "type": "static",
    
 Then make sure that your HTML entry point is called `index.html`.
