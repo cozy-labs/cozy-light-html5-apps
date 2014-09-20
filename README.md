@@ -1,13 +1,21 @@
-# Cozy Light Basic Auth
+# Cozy Light Static Apps    
 
-Plugin for the Cozy Light platform. It adds basic authentication at startup.
+Plugin to allow the Cozy Light platform to run apps made only of static files.
 
 ## Install
 
-    cozy-light add-plugin cozy-labs/cozy-light-basic-auth
+    cozy-light add-plugin cozy-labs/cozy-light-static-apps
 
-## Configuration
+## Install a static app
 
-    cozy-light set-password
+Install it as normal application, the plugin take care of the rest.
 
-Then the cozy-light will display you a password prompt
+    cozy-light install cozy-labs/hello
+
+## How to make a static app for Cozy Light?
+
+Build it as any app then publish on Github with a [Cozy Light manifest](https://github.com/cozy-labs/hello/blob/master/package.json) at the root of the repository. Add one field to the manifest:
+
+   "type": "static",
+   
+Then make sure that your HTML entry point is called `index.html`.
