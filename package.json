@@ -1,9 +1,9 @@
 {
-  "name": "cozy-light-static-apps",
+  "name": "cozy-light-html5-apps",
   "type": "plugin",
   "version": "0.1.0",
-  "displayName": "Static apps launcher",
-  "description": "Allow to deploy apps made only of static files.",
+  "displayName": "HTML5 support for Cozy Light",
+  "description": "Allow to deploy apps only made of static files.",
   "author": "Cozy Cloud <contact@cozycloud.cc> (http://cozycloud.cc)",
   "licenses": [
     {
@@ -14,7 +14,7 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/cozy-labs/cozy-light-static-apps.git"
+    "url": "https://github.com/cozy-labs/cozy-light-html5-apps.git"
   },
   "dependencies": {
     "express": "^4.9.0"
