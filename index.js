@@ -3,10 +3,6 @@ path = require('path');
 
 
 var plugin = {
-  /*
-   * Load static apps as a static route in the Cozy Light Express server.
-   * @param appId The key of the app in the configuration file.
-   */
   configureAppServer: function(app, config, routes, callback) {
     var configureApp = function (appId) {
       staticApp = config.apps[appId];
